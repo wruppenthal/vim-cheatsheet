@@ -14,6 +14,7 @@ entering the search `/i` will find every hit, including the "i" in words like
 pattern:
 
 ```\<i\>```
+[See here for more details][1]
 
 Removing Whitespace
 -------------------
@@ -29,3 +30,15 @@ error is displayed.
 The following deletes any leading whitespace at the beginning of each line.
 
 ```:%s/^\s\+//e```
+
+[See here for more details][2]
+
+
+
+
+
+
+
+
+[1]: http://vim.wikia.com/wiki/Search_patterns
+[2]: http://vim.wikia.com/wiki/Remove_unwanted_spaces
