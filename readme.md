@@ -14,6 +14,7 @@ entering the search `/i` will find every hit, including the "i" in words like
 pattern:
 
 ```\<i\>```
+
 [See here for more details][1]
 
 
