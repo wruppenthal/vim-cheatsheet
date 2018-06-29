@@ -16,6 +16,7 @@ pattern:
 ```\<i\>```
 [See here for more details][1]
 
+
 Removing Whitespace
 -------------------
 In a search, `\s` finds whitespace (a space or a tab), and `\+` finds one or 
@@ -34,6 +35,28 @@ The following deletes any leading whitespace at the beginning of each line.
 [See here for more details][2]
 
 
+Changing Case
+-------------
+ ```
+~    : Changes the case of current character
+
+guu  : Change current line from upper to lower.
+
+gUU  : Change current LINE from lower to upper.
+
+guw  : Change to end of current WORD from upper to lower.
+
+guaw : Change all of current WORD to lower.
+
+gUw  : Change to end of current WORD from lower to upper.
+
+gUaw : Change all of current WORD to upper.
+
+g~~  : Invert case to entire line
+```
+
+[From this stackoverflow answer][3]
+
 
 
 
@@ -42,3 +65,4 @@ The following deletes any leading whitespace at the beginning of each line.
 
 [1]: http://vim.wikia.com/wiki/Search_patterns
 [2]: http://vim.wikia.com/wiki/Remove_unwanted_spaces
+[3]: https://stackoverflow.com/questions/2946051/changing-case-in-vim
