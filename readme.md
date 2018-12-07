@@ -59,6 +59,11 @@ g~~  : Invert case to entire line
 [From this stackoverflow answer][3]
 
 
+Reformatting Text to Linewidth
+------------------------------
+`gq<movement>` will join lines to fill them out to linewidth, and cut overlength ones. Mostly good for text.
+
+
 
 
 
